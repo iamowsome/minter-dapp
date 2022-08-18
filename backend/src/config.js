@@ -8,12 +8,12 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Sneakzys";
-const description = "Web 3 Play to Earn NFT collection";
+const description = "Web 3 Play to Earn collection";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "Back" },
       { name: "Side" },
